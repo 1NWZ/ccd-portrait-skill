@@ -1,0 +1,6 @@
+interface:
+  display_name: "ccd大片写真"
+  short_description: "身份保真地生成正午硬光、高级混搭与环境冲突感的冷调超模大片"
+  default_prompt: "使用 $sunlit-couture-portrait 将我上传的人像制作成身份保真的冷感超模胶片写真，采用正午硬顶日光、高级混搭、明显浅色高光柔溢、设计眼镜与精致时装对生活环境的冲突叙事。"
+policy:
+  allow_implicit_invocation: true
