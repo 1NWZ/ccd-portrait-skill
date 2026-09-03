@@ -129,24 +129,6 @@ ccd-portrait-skill/
 - **尊重个体差异**：尊重端庄、宗教、文化、行动能力与无障碍需求，同时保留硬光、胶片、冷感表情与环境张力。
 - **参考图使用边界**：`assets/` 内图片仅为**风格参考**，其中的明星脸、品牌、文字、水印、播放按钮、车标、拼图版式一律不得进入结果；`eyewear-06-micro-rimless-composite.jpg` 为拼图，仅供分析、禁止直接传入生图模型。
 
----
-
-<sub>一套把「电影感审美」转化为可量化、可执行 Prompt 规则集的中文原生 Skill。</sub>
-需要我调整的方向，比如：
-
-更极简：砍掉表格、压缩成「一句话 + 三个模块」的轻量版；
-更技术向：补充三层解析 / 优先级链的流程图、scene = (...) mod 7 选型算法说明；
-加英文：做中英双语标题与简介，方便海外 agent 平台收录；
-落盘成文件：如果你想在本地留一份，我可以写成 README.md 放到你指定目录（默认不动线上）。
-你倾向哪种？
-
-更极简 可以加英文
-14:28
-思考过程
-明白，给你一版极简 + 中英双语的 README。砍掉了大表格和流程图，只留一句话定位、三个核心、文件结构和用法。
-
-Markdown
-
 
 
 # ccd-portrait-skill
@@ -188,36 +170,4 @@ Markdown
 
 ---
 
-## Structure · 结构
 
-```
-ccd-portrait-skill/ ├── SKILL.md # 规则引擎 · rules engine (identity, visual DNA, prompts, QA) ├── agents/openai.yaml # Codex 接口 · interface config ├── references/ │ ├── style-bible.md # 风格母版 · the visual grammar │ ├── scene-system.md # 场景 S0–S6 · scene recipes │ └── eyewear-and-styling.md # 眼镜 E1–E6 · eyewear & styling library └── assets/ # 风格参考图 · style refs only (never identity)
-
-
-
-
-
-Read order · 读取顺序：**style-bible → scene-system → eyewear-and-styling**。
-
----
-
-## Use · 用法
-
-在支持Skill的环境中直接说 / Just say:
-使用 ccd-portrait-skill，把这张照片做成身份保真的冷感超模胶片写真。Usesunlit-couture-portrait to turn this photo into an identity-faithful, cool-toned supermodel film editorial.
-
-
-
-
-
-只要策划不出图，也可以 / Planning only, no image:
-「先给我 3 个场景的中文 Prompt，不要生成。」
-
----
-
-## Boundaries · 边界
-
-- 参考图仅供风格，明星脸、品牌、水印、文字一律不入成片。
-  *Reference images inform style only — faces, logos, watermarks, text never enter the result.*
-- 烟酒与暴露造型仅限明确成年且用户要求；未成年人一律合龄、非性化。
-  *Smoking, alcohol, revealing looks: adults on request only; minors stay age-appropriate.*
