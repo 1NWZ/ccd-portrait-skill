@@ -1,6 +1,6 @@
 interface:
   display_name: "ccd大片写真"
   short_description: "保留原发色，生成非均匀自然硬光与先锋造型的冷感超模大片"
-  default_prompt: "使用 $sunlit-couture-portrait 将我上传的人像制作成身份保真的冷感超模胶片写真：默认保留原发色，采用偏轴上半身构图、非均匀自然硬光、结构化先锋造型和局部白色高光溢出。"
+  default_prompt: "使用 $ccd-portrait-skill 将我上传的人像制作成身份保真的冷感超模胶片写真：默认保留原发色，采用偏轴上半身构图、非均匀自然硬光、结构化先锋造型和局部白色高光溢出。"
 policy:
   allow_implicit_invocation: true
