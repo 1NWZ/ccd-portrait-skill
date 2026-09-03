@@ -117,7 +117,7 @@ ccd-portrait-skill/
 在支持 Codex Skill 的环境中，可直接用自然语言唤起，或使用接口默认 Prompt：
 
 ```
-使用 $sunlit-couture-portrait 将我上传的人像制作成身份保真的冷感超模胶片写真，
+使用ccd-portrait-skill将我上传的人像制作成身份保真的冷感超模胶片写真，
 采用正午硬顶日光、高级混搭、明显浅色高光柔溢、设计眼镜与精致时装对生活环境的冲突叙事。
 ```
 
@@ -203,8 +203,8 @@ Read order · 读取顺序：**style-bible → scene-system → eyewear-and-styl
 
 ## Use · 用法
 
-在支持 Codex Skill 的环境中直接说 / Just say:
-使用 sunlit−couture−portrait，把这张照片做成身份保真的冷感超模胶片写真。Usesunlit-couture-portrait to turn this photo into an identity-faithful, cool-toned supermodel film editorial.
+在支持Skill的环境中直接说 / Just say:
+使用 ccd-portrait-skill，把这张照片做成身份保真的冷感超模胶片写真。Usesunlit-couture-portrait to turn this photo into an identity-faithful, cool-toned supermodel film editorial.
 
 
 
