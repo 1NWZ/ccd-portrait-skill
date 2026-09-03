@@ -1,6 +1,6 @@
 # ccd-portrait-skill
 
-> 中文原生的 **身份保真 CCD 冷感超模写真** Codex Skill
+>  **身份保真 CCD 冷感超模写真** Codex Skill
 >
 > 用户照片只负责「这个人是谁」，本 Skill 负责「如何拍、如何穿、在哪里拍」。
 
